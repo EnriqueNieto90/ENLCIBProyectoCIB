@@ -40,13 +40,13 @@
                     <span class="nombre-tema">Introducción Ciberseguridad</span>
                     <ul class="lista-ejercicios">
                         <li>
-                            <a href="doc/Glosario.pdf" target="_blank">
+                            <a href="doc/GlosarioTerminos.pdf" target="_blank">
                                 <i class="fa-solid fa-book-open"></i> Glosario
                             </a>
                         </li>
                         <li>
-                            <a href="doc/EstudioOWASP.pdf" target="_blank">
-                                <i class="fa-solid fa-bug"></i> Vuln. OWASP
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-bug"></i> Estudio OWASP
                             </a>
                         </li>
                     </ul>
@@ -62,12 +62,12 @@
                     <span class="nombre-tema">Servidor Web Seguro</span>
                     <ul class="lista-ejercicios">
                         <li>
-                            <a href="doc/DocumentacionTema2.pdf" target="_blank">
+                            <a href="https://github.com/EnriqueNieto90/ENLDAWProyectoDAW" target="_blank">
                                 <i class="fa-regular fa-file-pdf"></i> Documentación
                             </a>
                         </li>
                         <li>
-                            <a href="doc/SeguimientoPractico.pdf" target="_blank">
+                            <a href="doc/251103ProtocoloInstalacionServidorWebAMP.pdf" target="_blank">
                                 <i class="fa-solid fa-list-check"></i> Seguimiento práctico
                             </a>
                         </li>
