@@ -40,13 +40,13 @@
                     <span class="nombre-tema">Introducción Ciberseguridad</span>
                     <ul class="lista-ejercicios">
                         <li>
-                            <a href="doc/Glosario.pdf" target="_blank">
+                            <a href="doc/GlosarioTerminos.pdf" target="_blank">
                                 <i class="fa-solid fa-book-open"></i> Glosario
                             </a>
                         </li>
                         <li>
-                            <a href="doc/EstudioOWASP.pdf" target="_blank">
-                                <i class="fa-solid fa-bug"></i> Vuln. OWASP
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-bug"></i> Estudio OWASP
                             </a>
                         </li>
                     </ul>
@@ -62,12 +62,12 @@
                     <span class="nombre-tema">Servidor Web Seguro</span>
                     <ul class="lista-ejercicios">
                         <li>
-                            <a href="doc/DocumentacionTema2.pdf" target="_blank">
+                            <a href="https://github.com/EnriqueNieto90/ENLDAWProyectoDAW" target="_blank">
                                 <i class="fa-regular fa-file-pdf"></i> Documentación
                             </a>
                         </li>
                         <li>
-                            <a href="doc/SeguimientoPractico.pdf" target="_blank">
+                            <a href="doc/251103ProtocoloInstalacionServidorWebAMP.pdf" target="_blank">
                                 <i class="fa-solid fa-list-check"></i> Seguimiento práctico
                             </a>
                         </li>
@@ -84,12 +84,12 @@
                     <span class="nombre-tema">Aplicación Web Segura</span>
                     <ul class="lista-ejercicios">
                         <li>
-                            <a href="/ENLCIBProyectoTema5/index.php">
+                            <a href="/ENLDWESLoginLogoffTema5/indexLoginLogoffTema5.php">
                                 <i class="fa-solid fa-window-restore"></i> Aplicación Tema 5
                             </a>
                         </li>
                         <li>
-                            <a href="/ENLCIBLoginLogoff/index.php">
+                            <a href="/ENLDWESLoginLogoff/indexLoginLogoff.php">
                                 <i class="fa-solid fa-right-to-bracket"></i> App LoginLogoff
                             </a>
                         </li>
@@ -98,15 +98,22 @@
             </article>
 
             <article class="tarjeta tarjeta-tema">
-                <div class="tarjeta-imagen" style="background-color: #999;">
+                <div class="tarjeta-imagen" style="background-color: #2c3e50;">
                     <i class="fa-solid fa-network-wired"></i>
                 </div>
                 <div class="tarjeta-contenido">
                     <span class="siglas">Tema 4</span>
                     <span class="nombre-tema">Infraestructura Web Segura</span>
                     <ul class="lista-ejercicios">
-                        <li class="sin-enlace">
-                            
+                        <li>
+                            <a href="https://github.com/EnriqueNieto90/ENLDAWProyectoDAW/blob/master/EntornoExplotacion.md" target="_blank">
+                                <i class="fa-solid fa-gears"></i> Administración hosting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/EnriqueNieto90/ENLDAWProyectoDAW/blob/master/EntornoExplotacion.md" target="_blank">
+                                <i class="fa-solid fa-rocket"></i> Paso a producción
+                            </a>
                         </li>
                     </ul>
                 </div>
