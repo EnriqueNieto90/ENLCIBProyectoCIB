@@ -2,87 +2,131 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>CFGS - Desarrollo de Aplicaciones Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: green;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        main {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: #ecf0f1;
-            margin: 10px 0;
-            padding: 15px;
-            border-left: 5px solid green;
-            border-right: 5px solid green;
-            transition: 0.3s;
-	    border-radius:8px;
-        }
-        li:hover {
-            background: #d6eaf8;
-            border-left: 5px solid purple;
-            border-right: 5px solid purple;
-        }
-
-        footer{
-            margin: auto;
-            background-color: green;
-            text-align: center;
-            height: 150px;
-	    color: white;
-        }
-	main{
-	text-align:center;
-	justify-content:center;
-	}
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrique Nieto | CIB</title>
+    
+    <link rel="stylesheet" href="webroot/css/fonts.css">
+    <link rel="stylesheet" href="webroot/css/all.min.css">
+    <link rel="stylesheet" href="webroot/css/estilosdwes.css">
 </head>
 <body>
-    <header>
-        <h2>CFGS - Desarrollo de Aplicaciones Web</h2>
-        <h1><b>Enrique Nieto Lorenzo</b></h1>
-        <p>Curso 2025/2026 - Grupo DAW2 - IES Los Sauces</p>
+
+    <header class="cabecera-principal">
+        <div class="contenedor contenido-cabecera">
+            <div class="identidad">
+                <a href="../index.html" style="text-decoration:none;">
+                    <div class="logo-iniciales">EN</div>
+                </a>
+                <h1>Enrique Nieto Lorenzo</h1>
+            </div>
+            <div class="curso-badge" style="background-color: #2c3e50; color: white;">
+                CIB
+            </div>
+        </div>
     </header>
-    <main>
-        <h2><b>FUNDAMENTOS DE CIBERSEGURIDAD</b></h2>
-        <ul>
-            <li><a href="doc/GlosarioTerminos.pdf" target="_blank">GLOSARIO DE TÉRMINOS</a></li>
-        </ul>
-        <ul>
-            <li><a href="doc/README.html" target="_blank">INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN DEL ENTORNO DE DESARROLLO Y DEL ENTORNO DE EXPLOTACIÓN</a></li>
-        </ul>
-        <ul>
-            <li><a href="doc/251103ProtocoloInstalacionServidorWebAMP.pdf" target="_blank">PROTOCOLO DE INSTALACIÓN</a></li>
-        </ul>
+
+    <main class="contenedor-principal">
+        
+        <h2 class="titulo-pagina">Ciberseguridad</h2>
+        
+        <div class="rejilla-tarjetas">
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #2c3e50;">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 1</span>
+                    <span class="nombre-tema">Introducción Ciberseguridad</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="doc/Glosario.pdf" target="_blank">
+                                <i class="fa-solid fa-book-open"></i> Glosario
+                            </a>
+                        </li>
+                        <li>
+                            <a href="doc/EstudioOWASP.pdf" target="_blank">
+                                <i class="fa-solid fa-bug"></i> Vuln. OWASP
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #2c3e50;">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 2</span>
+                    <span class="nombre-tema">Servidor Web Seguro</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="doc/DocumentacionTema2.pdf" target="_blank">
+                                <i class="fa-regular fa-file-pdf"></i> Documentación
+                            </a>
+                        </li>
+                        <li>
+                            <a href="doc/SeguimientoPractico.pdf" target="_blank">
+                                <i class="fa-solid fa-list-check"></i> Seguimiento práctico
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #2c3e50;">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 3</span>
+                    <span class="nombre-tema">Aplicación Web Segura</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="/ENLCIBProyectoTema5/index.php">
+                                <i class="fa-solid fa-window-restore"></i> Aplicación Tema 5
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/ENLCIBLoginLogoff/index.php">
+                                <i class="fa-solid fa-right-to-bracket"></i> App LoginLogoff
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #999;">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 4</span>
+                    <span class="nombre-tema">Infraestructura Web Segura</span>
+                    <ul class="lista-ejercicios">
+                        <li class="sin-enlace">
+                            
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+        </div>
     </main>
 
-    <footer>
-        <caption>
-            <a href="/">Enrique Nieto Lorenzo</a> | 03/10/2025
-        </caption>
+    <footer class="pie-pagina">
+        <div class="contenedor contenido-footer">
+            <div class="texto-legal">
+                <p>2025-26 IES LOS SAUCES. ©Todos los derechos reservados.</p>
+                <p class="autor">Enrique Nieto Lorenzo. Fecha de Actualización: 11-01-2026</p>
+            </div>
+            <div class="iconos-footer">
+                <a href="https://github.com/EnriqueNieto90/ENLCIBProyectoCIB" target="_blank" title="GitHub CIB"><i class="fa-brands fa-github"></i></a>
+                <a href="../index.html" title="Inicio"><i class="fa-solid fa-house"></i></a> 
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
