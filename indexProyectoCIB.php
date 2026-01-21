@@ -84,13 +84,13 @@
                     <span class="nombre-tema">Aplicación Web Segura</span>
                     <ul class="lista-ejercicios">
                         <li>
-                            <a href="/ENLDWESLoginLogoffTema5/indexLoginLogoffTema5.php">
-                                <i class="fa-solid fa-window-restore"></i> Aplicación Tema 5
+                            <a href="/ENLDWESLoginLogoff/indexLoginLogoff.php">
+                                <i class="fa-solid fa-right-to-bracket"></i> App LoginLogoff
                             </a>
                         </li>
                         <li>
-                            <a href="/ENLDWESLoginLogoff/indexLoginLogoff.php">
-                                <i class="fa-solid fa-right-to-bracket"></i> App LoginLogoff
+                            <a href="/ENLDWESAplicacionFinal/index.php">
+                                <i class="fa-solid fa-sliders overlay-icon"></i> Aplicación Final
                             </a>
                         </li>
                     </ul>
