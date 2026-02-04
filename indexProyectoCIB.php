@@ -112,7 +112,7 @@
                         </li>
                         <li>
                             <a href="https://github.com/EnriqueNieto90/ENLDAWProyectoDAW/blob/master/EntornoExplotacion.md" target="_blank">
-                                <i class="fa-solid fa-rocket"></i> Paso a producción
+                                <i class="fa-solid fa-rocket"></i> Paso a producción AMP
                             </a>
                         </li>
                     </ul>
