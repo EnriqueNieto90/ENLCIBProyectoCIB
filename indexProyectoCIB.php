@@ -45,8 +45,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
+                            <a href="doc/Estudio_vulnerabilidades_OWASP.pdf" target="_blank">
                                 <i class="fa-solid fa-bug"></i> Estudio OWASP
+                            </a>
+                        </li>
+                        <li>
+                            <a href="doc/A06_Diseño_Inseguro.pdf" target="_blank">
+                                <i class="fa fa-television"></i> Presentación OWASP - A06: Diseño Inseguro
                             </a>
                         </li>
                     </ul>
