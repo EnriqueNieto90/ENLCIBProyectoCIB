@@ -45,8 +45,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
+                            <a href="doc/Estudio_vulnerabilidades_OWASP.pdf" target="_blank">
                                 <i class="fa-solid fa-bug"></i> Estudio OWASP
+                            </a>
+                        </li>
+                        <li>
+                            <a href="doc/A06_Diseño_Inseguro.pdf" target="_blank">
+                                <i class="fa fa-television"></i> Presentación OWASP - A06: Diseño Inseguro
                             </a>
                         </li>
                     </ul>
@@ -84,13 +89,13 @@
                     <span class="nombre-tema">Aplicación Web Segura</span>
                     <ul class="lista-ejercicios">
                         <li>
-                            <a href="/ENLDWESLoginLogoffTema5/indexLoginLogoffTema5.php">
-                                <i class="fa-solid fa-window-restore"></i> Aplicación Tema 5
+                            <a href="/ENLDWESLoginLogoff/indexLoginLogoff.php">
+                                <i class="fa-solid fa-right-to-bracket"></i> App LoginLogoff
                             </a>
                         </li>
                         <li>
-                            <a href="/ENLDWESLoginLogoff/indexLoginLogoff.php">
-                                <i class="fa-solid fa-right-to-bracket"></i> App LoginLogoff
+                            <a href="/ENLDWESAplicacionFinal/index.php">
+                                <i class="fa-solid fa-sliders overlay-icon"></i> Aplicación Final
                             </a>
                         </li>
                     </ul>
@@ -112,7 +117,7 @@
                         </li>
                         <li>
                             <a href="https://github.com/EnriqueNieto90/ENLDAWProyectoDAW/blob/master/EntornoExplotacion.md" target="_blank">
-                                <i class="fa-solid fa-rocket"></i> Paso a producción
+                                <i class="fa-solid fa-rocket"></i> Paso a producción AMP
                             </a>
                         </li>
                     </ul>
