@@ -134,7 +134,7 @@
                 <p class="autor">Enrique Nieto Lorenzo. Fecha de Actualización: 11-01-2026</p>
             </div>
             <div class="iconos-footer">
-                <a href="https://github.com/EnriqueNieto90/ENLCIBProyectoCIB/tree/developerENL" target="_blank" title="GitHub CIB"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/EnriqueNieto90/ENLCIBProyectoCIB/tree/master" target="_blank" title="GitHub CIB"><i class="fa-brands fa-github"></i></a>
                 <a href="../index.html" title="Inicio"><i class="fa-solid fa-house"></i></a> 
             </div>
         </div>
